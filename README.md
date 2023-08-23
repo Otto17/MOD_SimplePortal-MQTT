@@ -40,7 +40,7 @@ SP_TIMEOUT          // вышел таймаут
 ### Хранение настроек
 Из скетча доступна переменная (структура) **portalCfg**:
 - `char* ssid[32]`        -  логин WiFi
-- `char* pass[32]`        -  пароль WiFi
+- `char* pass[64]`        -  пароль WiFi
 - `char* brokerMQTT[32]`  -  адрес сервера брокера MQTT
 - `char* loginMQTT[32]`   -  логин MQTT
 - `char* passMQTT[64]`    -  пароль MQTT
