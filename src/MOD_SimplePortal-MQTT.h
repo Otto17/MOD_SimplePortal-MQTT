@@ -38,7 +38,7 @@ struct PortalCfg {
   char brokerMQTT[32];
   char loginMQTT[32];
   char passMQTT[64];
-  char IDClentMQTT[40];
+  char IDClientMQTT[40];
   char portMQTT[6];
   uint8_t mode = WIFI_AP;    // (1 WIFI_STA, 2 WIFI_AP)
 };
