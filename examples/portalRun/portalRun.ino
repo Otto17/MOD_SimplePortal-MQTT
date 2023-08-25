@@ -23,7 +23,7 @@ void setup() {
   Serial.print("Пароль MQTT: ");
   Serial.println(portalCfg.passMQTT);
   Serial.print("ID клиента MQTT: ");
-  Serial.println(portalCfg.IDClentMQTT);
+  Serial.println(portalCfg.IDClientMQTT);
   Serial.print("Порт MQTT: ");
   Serial.println(portalCfg.portMQTT);
     // забираем данные из структуры
