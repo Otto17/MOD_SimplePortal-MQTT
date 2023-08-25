@@ -31,7 +31,7 @@ const char SP_connect_page[] PROGMEM = R"rawliteral(
 	<input type="text" name="brokerMQTT" placeholder="Адрес сервера"><br>
 	<input type="text" name="loginMQTT" placeholder="Логин"><br>
 	<input type="text" name="passMQTT" placeholder="Пароль"><br>
-	<input type="text" name="IDClentMQTT" placeholder="ID клиента"><br>
+	<input type="text" name="IDClientMQTT" placeholder="ID клиента"><br>
 	<input type="text" name="portMQTT" placeholder="Порт">
     <br>
     <input type="submit" class="BtSave" value="Сохранить ✓">
@@ -60,7 +60,7 @@ void SP_handleConnect() {
   strcpy(portalCfg.brokerMQTT, _SP_server.arg("brokerMQTT").c_str());
   strcpy(portalCfg.loginMQTT, _SP_server.arg("loginMQTT").c_str());
   strcpy(portalCfg.passMQTT, _SP_server.arg("passMQTT").c_str());
-  strcpy(portalCfg.IDClentMQTT, _SP_server.arg("IDClentMQTT").c_str());
+  strcpy(portalCfg.IDClientMQTT, _SP_server.arg("IDClientMQTT").c_str());
   strcpy(portalCfg.portMQTT, _SP_server.arg("portMQTT").c_str());
   portalCfg.mode = WIFI_STA;
   _SP_status = 1;
