@@ -44,7 +44,7 @@ SP_TIMEOUT          // вышел таймаут
 - `char* brokerMQTT[32]`  -  адрес сервера брокера MQTT
 - `char* loginMQTT[32]`   -  логин MQTT
 - `char* passMQTT[64]`    -  пароль MQTT
-- `char* IDClentMQTT[40]` -  ID клиента MQTT
+- `char* IDClientMQTT[40]` -  ID клиента MQTT
 - `char* portMQTT[6]`     -  порт MQTT
 - `byte mode` - (1 `WIFI_STA`, 2 `WIFI_AP`)
 После отправки данных с портала можно забрать информацию из структуры и/или записать её в EEPROM/FS.
